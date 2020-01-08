@@ -1,12 +1,12 @@
 import hashlib
 
 
-class teste:
-	def testando():
-		entrada = input('Palavra chave: ')
-		gerando = hashlib.md5(str.encode(entrada))
-		return print(gerando.hexdigest())
+class test:
+	def testing():
+		home = input('PassWord: ')
+		generating = hashlib.md5(str.encode(home))
+		return print(generating.hexdigest())
 
 
-show = teste.testando()
+show = test.testing()
 
